@@ -1,3 +1,3 @@
 # EMI
 
-Yaparsam Şerefsizim.
+Yaptım AMK
