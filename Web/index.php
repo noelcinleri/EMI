@@ -10,59 +10,53 @@
 							<div class="acc-leftbar">
 								<div class="nav nav-tabs" id="nav-tab" role="tablist">
 								    <a class="nav-item nav-link active" id="nav-status-tab" data-toggle="tab" href="#nav-status" role="tab" aria-controls="nav-status" aria-selected="true"><i class="la la-cogs"></i>Paket Seçimi</a>
-								    <a class="nav-item nav-link" id="nav-deactivate-tab" data-toggle="tab" href="#nav-deactivate" role="tab" aria-controls="nav-deactivate" aria-selected="false"><i class="fa fa-line-chart"></i>Paket İşlemleri</a>
+                                    <a class="nav-item nav-link" id="nav-deactivate-tab" data-toggle="tab" href="#nav-deactivate" role="tab" aria-controls="nav-deactivate" aria-selected="false"><i class="fa fa-line-chart"></i>Paket İşlemleri</a>
 								  </div>
 							</div><!--acc-leftbar end-->
 						</div>
 						<div class="col-lg-9">
 							<div class="tab-content" id="nav-tabContent">
-							  	<div class="tab-pane fade" id="nav-status" role="tabpanel" aria-labelledby="nav-status-tab">
+							  	<div class="tab-pane fade show active" id="nav-status" role="tabpanel" aria-labelledby="nav-status-tab">
 							  		<div class="acc-setting">
 							  			<h3>Size En Uygun Paketler</h3>
 							  			<div class="profile-bx-details">
+                                            <div class="row" style="margin-bottom:2%;">
+                                                <div class="col-md-12" style="text-align:right;">
+                                                    <h2 style="color:#e44d3a">Toplam Tutar :</h2> <h2 id="paketTutarToplam">00,00₺</h2>
+                                                </div>
+                                            </div>
 							  				<div class="row">
-							  					<div class="col-lg-3 col-md-6 col-sm-12">
-							  						<div class="profile-bx-info">
+							  					<div class="col-lg-4 col-md-6 col-sm-12">
+							  						<div class="profile-bx-info myBox">
 							  							<div class="pro-bx">
-							  								<div class="bx-info">
-                                                              <h3>A Paketi</h3>
-							  									<h3>100₺</h3>
+							  								<div class="bx-info" style="float:none;padding-left:0px !important;">
+                                                              <h3 style="text-align:center;font-size:25px !important;">A Paketi</h3>
+							  									<h3 style="text-align:center;font-size:17px !important;" id="paketFiyat1">100₺</h3>
 							  								</div><!--bx-info end-->
 							  							</div><!--pro-bx end-->
-							  							<p>Açıklama</p>
+							  							<p style="font-size:17px !important;font-weight:600;text-align:center;">Açıklama</p>
 							  						</div><!--profile-bx-info end-->
 							  					</div>
-							  					<div class="col-lg-3 col-md-6 col-sm-12">
-							  						<div class="profile-bx-info">
+							  					<div class="col-lg-4 col-md-6 col-sm-12">
+							  						<div class="profile-bx-info myBox">
 							  							<div class="pro-bx">
-							  								<div class="bx-info">
-                                                                  <h3>B Paketi</h3>
-                                                                  <h3>745₺</h3>
+                                                          <div class="bx-info" style="float:none;padding-left:0px !important;"">
+                                                              <h3 style="text-align:center;font-size:25px !important;">B Paketi</h3>
+							  									<h3 style="text-align:center;font-size:17px !important;" id="paketFiyat2">100₺</h3>
 							  								</div><!--bx-info end-->
 							  							</div><!--pro-bx end-->
-							  							<p>Açıklama</p>
+							  							<p style="font-size:17px !important;font-weight:600;text-align:center;">Açıklama</p>
 							  						</div><!--profile-bx-info end-->
 							  					</div>
-							  					<div class="col-lg-3 col-md-6 col-sm-12">
-							  						<div class="profile-bx-info">
+							  					<div class="col-lg-4 col-md-6 col-sm-12">
+							  						<div class="profile-bx-info myBox">
 							  							<div class="pro-bx">
-							  								<div class="bx-info">
-							  									<h3>C Paketi</h3>
-							  									<h3>145₺</h3>
+                                                          <div class="bx-info" style="float:none;padding-left:0px !important;"">
+                                                              <h3 style="text-align:center;font-size:25px !important;">C Paketi</h3>
+							  									<h3 style="text-align:center;font-size:17px !important;" id="paketFiyat3">100₺</h3>
 							  								</div><!--bx-info end-->
 							  							</div><!--pro-bx end-->
-							  							<p>Açıklama</p>
-							  						</div><!--profile-bx-info end-->
-							  					</div>
-							  					<div class="col-lg-3 col-md-6 col-sm-12">
-							  						<div class="profile-bx-info">
-							  							<div class="pro-bx">
-							  								<div class="bx-info">
-                                                              <h3>D Paketi</h3>
-							  									<h3>130₺</h3>
-							  								</div><!--bx-info end-->
-							  							</div><!--pro-bx end-->
-							  							<p>Açıklama</p>
+							  							<p style="font-size:17px !important;font-weight:600;text-align:center;">Açıklama</p>
 							  						</div><!--profile-bx-info end-->
 							  					</div>
 							  				</div>
